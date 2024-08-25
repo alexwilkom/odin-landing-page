@@ -41,7 +41,7 @@ a {
 }
 
 .block {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .block--dark {
@@ -162,7 +162,7 @@ a {
     margin-top: 1rem;
 }
 
-/* Action */
+/* Action section */
 
 .action {
     color: var(--primary-color);
@@ -173,4 +173,11 @@ a {
     align-items: center;
     padding: 3rem 5rem;
     border-radius: .3rem;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
