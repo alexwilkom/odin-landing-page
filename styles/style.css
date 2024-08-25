@@ -161,3 +161,16 @@ a {
     text-align: right;
     margin-top: 1rem;
 }
+
+/* Action */
+
+.action {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+    border-radius: .3rem;
+}
