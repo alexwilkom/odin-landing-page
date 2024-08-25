@@ -27,6 +27,10 @@ a {
     color: var(--secondary-color);
 }
 
+.block--grey {
+    background-color: var(--secondary-color);
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -124,4 +128,21 @@ a {
     border: 3px solid var(--accent-color);
     border-radius: .4rem;
     margin-bottom: .4rem;
+}
+
+/* Quote section */
+
+.quote {
+    margin: 4rem auto;
+}
+
+.quote__text {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark-color);
+}
+
+.quote__author {
+    text-align: right;
+    margin-top: 1rem;
 }
