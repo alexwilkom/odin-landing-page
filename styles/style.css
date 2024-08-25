@@ -18,6 +18,22 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    padding: .3rem 2rem;
+    border: 0;
+    border-radius: .3rem;
+}
+
+.btn--primary {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.btn--secondary {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
 .block {
     padding: 1rem;
 }
@@ -85,13 +101,6 @@ a {
     height: 235px;
 }
 
-.btn {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
-    padding: .3rem 2rem;
-    border: 0;
-    border-radius: .3rem;
-}
 
 /* Info section */
 
