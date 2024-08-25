@@ -3,11 +3,14 @@
     --secondary-color: #e5e7eb;
     --dark-color: #1f2937;
     --accent-color: #3882f6;
+
+    font-size: 18px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -29,6 +32,11 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .nav-list {
