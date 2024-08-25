@@ -4,3 +4,35 @@
     --dark-color: #1f2937;
     --accent-color: #3882f6;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 760px;
+}
+
+header {
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
